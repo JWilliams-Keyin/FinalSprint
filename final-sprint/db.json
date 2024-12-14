@@ -1,0 +1,252 @@
+[
+    {
+      "id": 1,
+      "itemName": "Non-Stick Frying Pan",
+      "description": "12-inch non-stick frying pan with a heat-resistant handle.",
+      "price": 24.99,
+      "quantityInStock": 30,
+      "category": "Kitchen",
+      "brand": "CookMaster",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "itemName": "Wooden Dining Chair",
+      "description": "Sturdy wooden chair with a comfortable cushioned seat.",
+      "price": 59.99,
+      "quantityInStock": 15,
+      "category": "Furniture",
+      "brand": "HomeComfort",
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "itemName": "Ceramic Coffee Mug Set",
+      "description": "Set of 4 colorful ceramic coffee mugs.",
+      "price": 19.99,
+      "quantityInStock": 40,
+      "category": "Kitchen",
+      "brand": "MugMania",
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "itemName": "Vinyl Record - Classic Rock Hits",
+      "description": "Collection of classic rock hits on vinyl.",
+      "price": 29.99,
+      "quantityInStock": 20,
+      "category": "Music",
+      "brand": "RetroTunes",
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "itemName": "Stainless Steel Utensil Set",
+      "description": "10-piece stainless steel utensil set.",
+      "price": 34.99,
+      "quantityInStock": 25,
+      "category": "Kitchen",
+      "brand": "ChefTools",
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "itemName": "Collectible Action Figure",
+      "description": "Limited edition superhero action figure.",
+      "price": 49.99,
+      "quantityInStock": 10,
+      "category": "Collectibles",
+      "brand": "HeroCollect",
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "itemName": "Desk Organizer",
+      "description": "Multi-compartment desk organizer for office supplies.",
+      "price": 14.99,
+      "quantityInStock": 35,
+      "category": "Office Supplies",
+      "brand": "NeatDesk",
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "itemName": "Board Game - Strategy Edition",
+      "description": "Popular strategy board game for 2-4 players.",
+      "price": 39.99,
+      "quantityInStock": 20,
+      "category": "Games",
+      "brand": "GameNight",
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "itemName": "Garden Tool Set",
+      "description": "5-piece garden tool set with ergonomic handles.",
+      "price": 29.99,
+      "quantityInStock": 18,
+      "category": "Yard Tools",
+      "brand": "GreenThumb",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "itemName": "Holiday String Lights",
+      "description": "100 LED holiday string lights for indoor and outdoor use.",
+      "price": 14.99,
+      "quantityInStock": 50,
+      "category": "Seasonal Decorations",
+      "brand": "FestiveGlow",
+      "rating": 4.7
+    },
+    {
+      "id": 11,
+      "itemName": "Cast Iron Skillet",
+      "description": "10-inch pre-seasoned cast iron skillet.",
+      "price": 29.99,
+      "quantityInStock": 20,
+      "category": "Kitchen",
+      "brand": "IronChef",
+      "rating": 4.8
+    },
+    {
+      "id": 12,
+      "itemName": "Portable Blender",
+      "description": "Rechargeable portable blender for smoothies and shakes.",
+      "price": 39.99,
+      "quantityInStock": 25,
+      "category": "Kitchen",
+      "brand": "BlendPro",
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "itemName": "Decorative Throw Pillow",
+      "description": "Soft throw pillow with a stylish design.",
+      "price": 19.99,
+      "quantityInStock": 30,
+      "category": "Home Decor",
+      "brand": "CozyHome",
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "itemName": "Electric Griddle",
+      "description": "Non-stick electric griddle with adjustable temperature control.",
+      "price": 49.99,
+      "quantityInStock": 15,
+      "category": "Kitchen",
+      "brand": "GrillMaster",
+      "rating": 4.6
+    },
+    {
+      "id": 15,
+      "itemName": "Wall Art - Abstract Painting",
+      "description": "Framed abstract painting for modern home decor.",
+      "price": 79.99,
+      "quantityInStock": 10,
+      "category": "Home Decor",
+      "brand": "ArtisticTouch",
+      "rating": 4.8
+    },
+    {
+      "id": 16,
+      "itemName": "Electric Pressure Washer",
+      "description": "2000 PSI electric pressure washer for outdoor cleaning.",
+      "price": 129.99,
+      "quantityInStock": 12,
+      "category": "Yard Tools",
+      "brand": "CleanForce",
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "itemName": "Bluetooth Record Player",
+      "description": "Vintage-style record player with Bluetooth connectivity.",
+      "price": 99.99,
+      "quantityInStock": 8,
+      "category": "Electronics",
+      "brand": "RetroSound",
+      "rating": 4.6
+    },
+    {
+      "id": 18,
+      "itemName": "Stainless Steel Mixing Bowls",
+      "description": "Set of 5 stainless steel mixing bowls with lids.",
+      "price": 34.99,
+      "quantityInStock": 20,
+      "category": "Kitchen",
+      "brand": "MixMaster",
+      "rating": 4.7
+    },
+    {
+      "id": 19,
+      "itemName": "LED Floor Lamp",
+      "description": "Adjustable LED floor lamp with remote control.",
+      "price": 59.99,
+      "quantityInStock": 15,
+      "category": "Home Decor",
+      "brand": "BrightHome",
+      "rating": 4.6
+    },
+    {
+      "id": 20,
+      "itemName": "Electric Wine Opener",
+      "description": "Rechargeable electric wine opener with foil cutter.",
+      "price": 29.99,
+      "quantityInStock": 25,
+      "category": "Kitchen",
+      "brand": "WineEase",
+      "rating": 4.8
+    },
+    {
+      "id": 21,
+      "itemName": "Memory Foam Bath Mat",
+      "description": "Soft memory foam bath mat with non-slip backing.",
+      "price": 24.99,
+      "quantityInStock": 20,
+      "category": "Home Decor",
+      "brand": "ComfortMat",
+      "rating": 4.7
+    },
+    {
+      "id": 22,
+      "itemName": "Cordless Handheld Vacuum",
+      "description": "Portable cordless vacuum for quick clean-ups.",
+      "price": 49.99,
+      "quantityInStock": 18,
+      "category": "Home & Kitchen",
+      "brand": "VacPro",
+      "rating": 4.6
+    },
+    {
+      "id": 23,
+      "itemName": "Silicone Baking Mat",
+      "description": "Non-stick silicone baking mat for easy baking.",
+      "price": 14.99,
+      "quantityInStock": 30,
+      "category": "Kitchen",
+      "brand": "BakeEase",
+      "rating": 4.8
+    },
+    {
+      "id": 24,
+      "itemName": "Adjustable Laptop Stand",
+      "description": "Ergonomic laptop stand with adjustable height.",
+      "price": 39.99,
+      "quantityInStock": 20,
+      "category": "Office Supplies",
+      "brand": "ErgoStand",
+      "rating": 4.7
+    },
+    {
+      "id": 25,
+      "itemName": "Stainless Steel Toaster",
+      "description": "2-slice stainless steel toaster with multiple settings.",
+      "price": 29.99,
+      "quantityInStock": 25,
+      "category": "Kitchen",
+      "brand": "ToastMaster",
+      "rating": 4.6
+    }
+]
