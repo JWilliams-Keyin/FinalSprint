@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import OrderButton from '../Components/orderButton'
 
 function Checkout() {
   const [isCheckedOut, setIsCheckedOut] = useState(false);
@@ -15,7 +16,7 @@ function Checkout() {
       ) : (
         <div>
           <p>Please review your cart and proceed to complete the purchase.</p>
-          <button onClick = {handleCheckout}>Confirm Order</button>
+          <OrderButton onClick = {handleCheckout}>Place Order</OrderButton>
         </div>
       )}
     </div>
