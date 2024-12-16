@@ -4,8 +4,8 @@ import Cart from "./Cart";
 
 test("fetches and displays cart items", async () => {
   const mockCartItems = [
-    { id: 1, name: "Item 1", price: 10 },
-    { id: 2, name: "Item 2", price: 20 },
+    { id: 1, name: "Non-Stick Frying Pan", price: 24.99 },
+    { id: 2, name: "Wooden Dining Chair", price: 59.99 },
   ];
 
   global.fetch = jest.fn(() =>
@@ -17,15 +17,19 @@ test("fetches and displays cart items", async () => {
   render(<Cart />);
 
   await waitFor(() => {
-    expect(screen.getByText("Item 1 - $10")).toBeInTheDocument();
-    expect(screen.getByText("Item 2 - $20")).toBeInTheDocument();
+    expect(
+      screen.getByText("Non-Stick Frying Pan - $24.99")
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText("Wooden Dining Chair - $59.99")
+    ).toBeInTheDocument();
   });
 });
 
 test("removes item from cart", async () => {
   const mockCartItems = [
-    { id: 1, name: "Item 1", price: 10 },
-    { id: 2, name: "Item 2", price: 20 },
+    { id: 1, name: "Non-Stick Frying Pan", price: 24.99 },
+    { id: 2, name: "Wooden Dining Chair", price: 59.99 },
   ];
 
   global.fetch = jest.fn((url, options) => {
@@ -40,21 +44,27 @@ test("removes item from cart", async () => {
   render(<Cart />);
 
   await waitFor(() => {
-    expect(screen.getByText("Item 1 - $10")).toBeInTheDocument();
-    expect(screen.getByText("Item 2 - $20")).toBeInTheDocument();
+    expect(
+      screen.getByText("Non-Stick Frying Pan - $24.99")
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText("Wooden Dining Chair - $59.99")
+    ).toBeInTheDocument();
   });
 
   fireEvent.click(screen.getByText("Remove", { selector: "button" }));
 
   await waitFor(() => {
-    expect(screen.queryByText("Item 1 - $10")).not.toBeInTheDocument();
+    expect(
+      screen.queryByText("Non-Stick Frying Pan - $24.99")
+    ).not.toBeInTheDocument();
   });
 });
 
 test("displays total price", async () => {
   const mockCartItems = [
-    { id: 1, name: "Item 1", price: 10 },
-    { id: 2, name: "Item 2", price: 20 },
+    { id: 1, name: "Non-Stick Frying Pan", price: 24.99 },
+    { id: 2, name: "Wooden Dining Chair", price: 59.99 },
   ];
 
   global.fetch = jest.fn(() =>
